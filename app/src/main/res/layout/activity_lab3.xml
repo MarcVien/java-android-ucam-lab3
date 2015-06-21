@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Lab3">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_above="@+id/gridLayout"
+        android:layout_centerHorizontal="true" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gridLayout"
+        android:rowCount="5"
+        android:columnCount="4">
+        <!-- Primeira fileira-->
+        <Button
+            android:text="@string/btn_1"
+            android:id="@+id/button4"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:text="@string/btn_2"
+            android:id="@+id/button3"
+            android:layout_gravity="bottom"/>
+
+        <Button
+            android:text="@string/btn_3"
+            android:id="@+id/button"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:text="@string/btn_p"
+            android:id="@+id/button2"
+            android:layout_gravity="bottom"/>
+
+        <!-- Segunda fileira-->
+        <Button
+            android:text="@string/btn_4"
+            android:id="@+id/button5"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:text="@string/btn_5"
+            android:id="@+id/button6"
+            android:layout_gravity="bottom"/>
+
+        <Button
+            android:text="@string/btn_6"
+            android:id="@+id/button7"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:text="@string/btn_m"
+            android:id="@+id/button8"
+            android:layout_gravity="bottom"/>
+
+        <!-- Terceira fileira-->
+        <Button
+            android:text="@string/btn_7"
+            android:id="@+id/button9"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:text="@string/btn_8"
+            android:id="@+id/button10"
+            android:layout_gravity="bottom"/>
+
+        <Button
+            android:text="@string/btn_9"
+            android:id="@+id/button11"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:text="@string/btn_v"
+            android:id="@+id/button12"
+            android:layout_gravity="left"/>
+
+        <!-- Quarta fileira-->
+
+        <Button
+            android:text="@string/btn_0"
+            android:id="@+id/button15"
+            android:layout_column="1"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:text="@string/btn_d"
+            android:id="@+id/button16"
+            android:layout_column="3"
+            android:layout_gravity="left"/>
+    </GridLayout>
+
+
+</RelativeLayout>
